@@ -36,7 +36,6 @@ byte colPins[COLUMNS] = {5,6};
 Keypad keypad = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLUMNS );
 
 void setup() {
-  Serial.begin(9600);
   Keyboard.begin();
 }
 
